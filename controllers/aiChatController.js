@@ -1,5 +1,5 @@
-import Groq from "groq-sdk";
-import dotenv from "dotenv";
+const Groq = require("groq-sdk");
+require("dotenv").config();
 
 dotenv.config();
 
