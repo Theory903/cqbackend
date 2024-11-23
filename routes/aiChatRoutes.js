@@ -1,5 +1,5 @@
 const express = require("express");
-const { getAIResponse } = require("../controllers/aiChatController");
+const { getAIResponse } = require("../controllers/aiChatController.cjs");
 
 const router = express.Router();
 

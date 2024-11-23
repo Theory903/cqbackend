@@ -1,7 +1,8 @@
 {
-    "name": "career-interest-radar-backend",
+    "name": "backend",
     "version": "1.0.0",
     "main": "server.js",
+    "type": "module",
     "scripts": {
         "start": "node server.js",
         "dev": "nodemon server.js"
@@ -15,6 +16,5 @@
         "nodemon": "^3.1.7",
         "helmet": "^8.0.0",
         "groq-sdk": "^0.8.0"
-    },
-    "type": "module"
+    }
 }
